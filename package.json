@@ -1,0 +1,13 @@
+{
+  "name": "birthday-celebration",
+  "version": "1.0.0",
+  "description": "Interactive birthday celebration website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "start": "python -m http.server 3000"
+  },
+  "keywords": ["birthday", "celebration", "interactive"],
+  "author": "Your Name",
+  "license": "MIT"
+}
