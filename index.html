@@ -306,7 +306,7 @@
     }
 
     .hide {
-     display: none;
+      display: none;
     }
 
     @keyframes confetti-fall {
@@ -348,17 +348,39 @@
     .balloons {
       position: absolute;
       top: 160px;
-      right: 20px;
+      right: 30px;
       display: flex;
       gap: 10px;
 
       z-index: 10;
     }
 
+    .balloons2 {
+      top: 160px;
+      left: 30px;
+    }
+
+    .balloons3 {
+      top: 360px;
+      left: 220px;
+    }
+
+    .balloons4 {
+      top: 360px;
+      right: 220px;
+    }
+
     .balloon {
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px,
+        rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
       width: 40px;
       height: 60px;
-      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
       position: relative;
       animation: balloon-float 3s ease-in-out infinite;
     }
@@ -439,6 +461,24 @@
 
   <div class="container">
     <div class="balloons">
+      <div class="balloon"></div>
+      <div class="balloon"></div>
+      <div class="balloon"></div>
+    </div>
+
+    <div class="balloons balloons2">
+      <div class="balloon"></div>
+      <div class="balloon"></div>
+      <div class="balloon"></div>
+    </div>
+
+    <div class="balloons balloons3">
+      <div class="balloon"></div>
+      <div class="balloon"></div>
+      <div class="balloon"></div>
+    </div>
+
+    <div class="balloons balloons4">
       <div class="balloon"></div>
       <div class="balloon"></div>
       <div class="balloon"></div>
